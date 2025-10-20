@@ -1,0 +1,6 @@
+detection_results/*
+*.mp4
+*.jpg
+*.png
+.vscode
+pt
