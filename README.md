@@ -1,48 +1,48 @@
 # Data Management and Analyze Codes
 
-Bu proje, veri yönetimi ve analizine yönelik çeşitli Python betikleri ve Jupyter Notebook dosyalarını içerir. Özellikle görüntü ve video etiketleme, veri seti düzenleme, veri temizleme ve makine öğrenimi eğitim süreçlerini kolaylaştırmak için tasarlanmıştır.
+This project contains various Python scripts and Jupyter Notebook files for data management and analysis. It is designed to facilitate processes such as image and video labeling, dataset organization, data cleaning, and machine learning model training.
 
-## Klasörler
+## Folders
 
-- **notebooks/**: Görüntü ve video etiketleme, veri temizleme, veri bölme ve model eğitimi gibi işlemler için Jupyter Notebook dosyaları.
-- **py/**: Veri işleme, etiket düzenleme, veri seti oluşturma ve analiz için Python betikleri.
+- **notebooks/**: Jupyter Notebook files for image and video labeling, data cleaning, dataset splitting, and model training.
+- **py/**: Python scripts for data processing, label editing, dataset creation, and analysis.
 
-## Öne Çıkan Dosyalar
+## Notable Files
 
 ### Notebooks
-- `autolabel_to_image.ipynb`: Görüntülere otomatik etiket ekleme.
-- `autolabel_to_video.ipynb`: Videolara otomatik etiket ekleme.
-- `train_fasterrcnn.ipynb`: Faster R-CNN ile model eğitimi.
-- `train_valid_test_split_code.ipynb`: Veri setini eğitim, doğrulama ve test olarak bölme.
-- `delete_duplicate.ipynb`: Yinelenen dosyaları silme.
+- `autolabel_to_image.ipynb`: Automatically add labels to images.
+- `autolabel_to_video.ipynb`: Automatically add labels to videos.
+- `train_fasterrcnn.ipynb`: Train models using Faster R-CNN.
+- `train_valid_test_split_code.ipynb`: Split dataset into train, validation, and test sets.
+- `delete_duplicate.ipynb`: Delete duplicate files.
 
-### Python Scriptleri
-- `coco2yolo_label_format.py`: COCO etiket formatını YOLO formatına dönüştürme.
-- `make_dataset_with_equalized_labels_and_augmentations.py`: Etiketleri eşitleyerek ve veri artırma uygulayarak veri seti oluşturma.
-- `delete_edge_labels.py`: Kenar etiketlerini silme.
-- `merge_class_folders_to_create_datas.py`: Sınıf klasörlerini birleştirerek veri seti oluşturma.
+### Python Scripts
+- `coco2yolo_label_format.py`: Convert COCO label format to YOLO format.
+- `make_dataset_with_equalized_labels_and_augmentations.py`: Create datasets with balanced labels and augmentations.
+- `delete_edge_labels.py`: Remove edge labels.
+- `merge_class_folders_to_create_datas.py`: Merge class folders to create datasets.
 
-## Kurulum
+## Installation
 
-1. Python 3.8+ kurulu olmalıdır.
-2. Gerekli paketleri yüklemek için:
+1. Python 3.8+ must be installed.
+2. To install required packages:
    ```bash
    pip install -r requirements.txt
    ```
-   (Not: requirements.txt dosyasını kendiniz oluşturmalısınız veya notebooklarda kullanılan paketleri manuel yükleyebilirsiniz.)
+   (Note: You may need to create the requirements.txt file yourself or manually install packages used in the notebooks.)
 
-## Kullanım
+## Usage
 
-- Jupyter Notebook dosyalarını çalıştırmak için:
+- To run Jupyter Notebook files:
   ```bash
   jupyter notebook
   ```
-- Python betiklerini çalıştırmak için:
+- To run Python scripts:
   ```bash
-  python py/<dosya_adı>.py
+  python py/<script_name>.py
   ```
 
-## Katkı
+## Contribution
 
-Katkıda bulunmak için yeni bir dal oluşturup değişikliklerinizi gönderin. Pull request açabilirsiniz.
+To contribute, create a new branch, commit your changes, and open a pull request.
 
